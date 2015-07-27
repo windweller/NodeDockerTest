@@ -9,7 +9,7 @@ var WHO = process.env.WHO || DEFAULT_WHO;
 // App
 var app = express();
 app.get('/', function (req, res) {
-  res.send('Hello ' + WHO + '. Wish you were here.\n');
+  res.send('Hello ' + WHO + '. This is version 2. Wish you were here.\n');
 });
 
 app.listen(PORT);
